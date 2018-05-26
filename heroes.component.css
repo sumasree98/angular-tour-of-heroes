@@ -1,0 +1,64 @@
+.selected {
+    background-color: #FDF1F9 !important;
+    color: white;
+  }
+  .heroes {
+    margin: 2em 0 5em 2em;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+    text-decoration: none;
+  }
+  .heroes li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: rgb(238, 238, 238);
+    color:#6E1050;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  .heroes li.selected:hover {
+    background-color: #E6E3E5 !important;
+    color: #3B0629;
+    text-decoration: none;
+  }
+  .heroes li:hover {
+    color: #3B0629;
+    background-color:white;
+    left: .1em;
+    text-decoration: none;
+  }
+  .heroes .text {
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+  }
+  .heroes .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #6E1050;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+  h2
+  {
+    color:#06272A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin-bottom:2%;
+    margin-left: 6%;
+  }
+  .heroes li a{
+    text-decoration: none;
+  }

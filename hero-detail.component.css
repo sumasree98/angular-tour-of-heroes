@@ -1,0 +1,46 @@
+label {
+    display: inline-block;
+    width: 10em;
+    margin: 1em 0;
+    color: #607D8B;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  input {
+    height: 2em;
+    width:auto;
+    font-size: 1em;
+    padding-left: .4em;
+  }
+  button {
+    margin: 15px;
+    font-family: Arial;
+    background-color: #eee;
+    border: 1px inset black;
+    padding: 5px 10px;
+    height:2.5em;
+    border-radius: 4px;
+    cursor: pointer; cursor: hand;
+  }
+  button:hover {
+    background-color: #cfd8dc;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }
+  #hero_id
+  {
+    font-size: 1.3em;
+    padding:0.4em;
+    width:3em;
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 2em;
+    text-align: center;
+  }
+  h2
+  {
+    font-family: sans-serif;
+    color:rgb(17, 35, 61);
+  }
